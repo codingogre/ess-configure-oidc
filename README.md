@@ -4,19 +4,19 @@ This project provides a script that automates configuring OIDC for the Elasticse
 ## Software Requirements
 ess-configure-oidc.sh has two requirements:
 
-* ecctl
-ecctl is a CLI utility that uses ESS REST APIs to automate tasks.
-Download ecctl here: https://www.elastic.co/downloads/ecctl
+* ecctl  
+ecctl is a CLI utility that uses ESS REST APIs to automate tasks.  
+Download ecctl here: https://www.elastic.co/downloads/ecctl  
 
-I am on a Mac and used brew to easily install it
+I am on a Mac and used brew to easily install it  
 
-* jq (https://stedolan.github.io/jq/).
-jq is like sed for JSON data.
+* jq (https://stedolan.github.io/jq/)  
+jq is like sed for JSON data.  
 
 ## ESS Requirements
-* API Key
-An API key is needed by ecctl so it can authenticate to ESS
+* API Key  
+An API key is needed by ecctl so it can authenticate to ESS  
 https://www.elastic.co/guide/en/cloud/current/ec-restful-api.html
 
-Instructions for how to create an ESS API key is here:
+Instructions for how to create an ESS API key is here:  
 https://www.elastic.co/guide/en/cloud/current/ec-api-authentication.html
