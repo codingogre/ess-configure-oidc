@@ -2,7 +2,7 @@
 
 # Default OIDC config
 read -r -d '' OIDC_CONFIG << EOM
-xpack.security.authc.realms.oidc.ford-oidc:
+xpack.security.authc.realms.oidc.your-oidc-realm-name:
     order: 2
     rp.client_id: "client-id"
     rp.response_type: "code"
