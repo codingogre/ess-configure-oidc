@@ -58,7 +58,7 @@ while getopts ":i:c:a:hp" OPTKEY; do
 			CLUSTER_ID=$OPTARG
 			;;
 		c)
-			CONFIG=$OPTARG
+			OIDC_CONFIG=$OPTARG
 			;;
         a)
             export EC_API_KEY=$OPTARG
