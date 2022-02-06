@@ -2,7 +2,6 @@
 This project provides a script that automates configuring OIDC for the Elasticsearch Service (ESS).  OIDC requires Kibana URLs that are not available until after the cluster is created, therefore mechanisms like Terraform https://registry.terraform.io/providers/elastic/ec/latest/docs cannot be used to *fully* configure a cluster. This inconvenience is remedied by having Terraform call the ess-configure-oidc.sh script which will download the cluster topology by cluster ID, download the Kibana URL, and inject an OIDC configuration of your choice.  Terraform is recommended by the author, but there is no assumptions nor dependencies on the ES Terraform provider.
 
 ## Software Requirements
-ess-configure-oidc.sh has two requirements:
 
 * ecctl  
 ecctl is a CLI utility that uses ESS REST APIs to automate tasks.  
