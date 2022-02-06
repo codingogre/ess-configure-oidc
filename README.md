@@ -9,10 +9,10 @@ This project provides a script that automates configuring OIDC for the Elasticse
 ecctl is a CLI utility that uses ESS REST APIs to automate tasks.  
 Download ecctl here: https://www.elastic.co/downloads/ecctl  
 
-I am on a Mac and used brew to easily install it  
-
 * jq (https://stedolan.github.io/jq/)  
 jq is like sed for JSON data.  
+
+If you use OS X you can easily install these using brew   
 
 ### ESS Requirements
 * API Key  
