@@ -16,8 +16,6 @@ xpack.security.authc.realms.oidc.your-oidc-realm-name:
     claims.groups: "http://example.info/claims/groups"
 EOM
 
-echo "$OIDC_CONFIG" > /tmp/pre_oidc.json
-
 function usage {
 	cat <<EOM
 Usage:
