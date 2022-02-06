@@ -60,9 +60,9 @@ while getopts ":i:c:a:hp" OPTKEY; do
 		c)
 			OIDC_CONFIG=$OPTARG
 			;;
-        a)
-            export EC_API_KEY=$OPTARG
-            ;;
+		a)
+			export EC_API_KEY=$OPTARG
+			;;
 		p)
 			printf "$OIDC_CONFIG"
 			exit 0
