@@ -76,7 +76,7 @@ done
 shift $((OPTIND - 1))
 
 if [ -z "$EC_API_KEY" ]; then
-	echo "The ESS API key can be found"
+	echo "The ESS API key cannot be found"
 	usage
 fi
 
